@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  background-color: #f0f0f0;
+  border: 2px solid black;
+}
+
+#livesDisplay {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#gameOverScreen { /* ... existing styles ... */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
